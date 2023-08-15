@@ -1,0 +1,11 @@
+server:
+  port: 8004
+
+
+  # 服务别名---注册zoonkeeper到注册中心
+spring:
+  application:
+    name: cloud-consumer-order
+  cloud:
+    zookeeper:
+      connect-string: 139.186.5.203:2181
