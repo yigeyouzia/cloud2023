@@ -5,3 +5,6 @@
 /cloud-euraka-server7002/target/
 /cloud-provider-payment8001/target/
 /cloud-provider-payment8002/target/
+/cloud-consumerzk-order80/target/
+/cloud-provider-payment8004/target/
+**/target/
