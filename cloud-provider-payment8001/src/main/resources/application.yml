@@ -32,8 +32,6 @@ eureka:
 #    lease-expiration-duration-in-seconds: 2
 
 
-
-
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   type-aliases-package: com.cyt.springcloud.entities    # 所有Entity别名类所在包
