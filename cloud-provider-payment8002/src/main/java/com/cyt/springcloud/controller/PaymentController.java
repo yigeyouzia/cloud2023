@@ -43,4 +43,10 @@ public class PaymentController {
         }
         return new CommonResult(444, "查询数据失败，查询ID:  " + id, null);
     }
+
+    // gateway
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB() {
+        return ServefPort;
+    }
 }

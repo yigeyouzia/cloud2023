@@ -76,4 +76,10 @@ public class PaymentController {
         }
         return ServefPort;
     }
+
+    // gateway
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB() {
+        return ServefPort;
+    }
 }
